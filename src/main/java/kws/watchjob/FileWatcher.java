@@ -13,7 +13,7 @@ import static java.nio.file.StandardWatchEventKinds.OVERFLOW;
 public class FileWatcher {
 
     private final Path pathToWatch;
-    private FIleJob fileJob;
+    private FileJob fileJob;
 
     public FileWatcher(String filePath) {
         pathToWatch = Paths.get(filePath);
